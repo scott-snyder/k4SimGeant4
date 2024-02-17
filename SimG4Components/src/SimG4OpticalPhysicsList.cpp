@@ -3,7 +3,7 @@
 // Geant4
 #include "G4VModularPhysicsList.hh"
 #include "G4OpticalPhysics.hh"
-#include "G4OpticalParameters.hh"
+//#include "G4OpticalParameters.hh"
 
 DECLARE_COMPONENT(SimG4OpticalPhysicsList)
 
@@ -34,6 +34,7 @@ G4VModularPhysicsList* SimG4OpticalPhysicsList::physicsList() {
   opticalPhysics->SetVerboseLevel (2);
   physicsList->RegisterPhysics(opticalPhysics);
 
+#if 0
   auto* opticalParams = G4OpticalParameters::Instance();
   opticalParams->SetBoundaryInvokeSD(true);
   opticalParams->SetProcessActivation("Cerenkov",SetCerenkov);
@@ -41,6 +42,7 @@ G4VModularPhysicsList* SimG4OpticalPhysicsList::physicsList() {
   opticalParams->SetProcessActivation("TransitionRadiation",SetTransitionRadiation);
   opticalParams->SetCerenkovTrackSecondariesFirst(true);
   opticalParams->SetScintTrackSecondariesFirst(true);
+#endif
 
   return physicsList;
 }
