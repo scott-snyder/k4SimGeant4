@@ -6,6 +6,8 @@
 
 #include "DD4hep/Printout.h"
 
+#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
+
 using namespace Gaudi;
 
 DECLARE_COMPONENT(GeoSvc)
