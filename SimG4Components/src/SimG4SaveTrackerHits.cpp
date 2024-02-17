@@ -1,3 +1,5 @@
+#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
+
 #include "SimG4SaveTrackerHits.h"
 
 // k4SimGeant4
