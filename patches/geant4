@@ -1,0 +1,7 @@
+Bottom: d6d70eece938c6064ca46ad7da83b4024a5edecb
+Top:    d6d70eece938c6064ca46ad7da83b4024a5edecb
+Author: scott snyder <sss@karma>
+Date:   2024-02-16 22:36:42 -0500
+
+G4OpticalParameters isn't in the g4 version i'm currently using.
+dike out references to it.
