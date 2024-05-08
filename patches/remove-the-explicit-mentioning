@@ -1,7 +1,0 @@
-Bottom: 89d979ca60c81de0efc90f2f86ced6222041eceb
-Top:    ca4ece96d61597b2b2bf9b38670d4b231967f4ee
-Author: Thomas Madlener <thomas.madlener@desy.de>
-Date:   2023-12-14 17:13:08 +0100
-
-Remove the explicit mentioning of momentum types (#59)
-

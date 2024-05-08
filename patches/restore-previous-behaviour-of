@@ -1,7 +1,0 @@
-Bottom: 1ae55028884d9e09106f6990f711cce914feb03b
-Top:    89d979ca60c81de0efc90f2f86ced6222041eceb
-Author: Giovanni Marchiori <39376142+giovannimarchiori@users.noreply.github.com>
-Date:   2023-12-14 17:09:55 +0100
-
-restore previous behaviour of RedoSegmentation for segmentations different from the merged module-theta readout (#57)
-
