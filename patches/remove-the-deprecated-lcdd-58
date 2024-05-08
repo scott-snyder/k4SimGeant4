@@ -1,0 +1,14 @@
+Bottom: 463dc457481c0c98558098c9ec7662f61134a6b2
+Top:    af3ce98ef983a4c5859f41224b2c3ecead17bbf2
+Author: Juan Miguel Carceller <22276694+jmcarcell@users.noreply.github.com>
+Date:   2024-02-08 09:51:28 +0100
+
+Remove the deprecated lcdd() (#58)
+
+* Remove the deprecated lcdd()
+
+* Remove lcdd in GeoSvc
+
+---------
+
+Co-authored-by: jmcarcell <jmcarcell@users.noreply.github.com>

@@ -1,14 +1,55 @@
 {
   "version": 5,
-  "prev": "9bd7e5f40818d59f38aa334ced471c238a024d1a",
+  "prev": "3ed33dfa2043ac8aba616e31af34850cb1048d3e",
   "head": "b19fbbb0f7a897397e0b2c6842d01ca1d785c279",
   "applied": [
+    "restore-previous-behaviour-of",
+    "remove-the-explicit-mentioning",
+    "flipping-x-angle-boost-61",
+    "allow-building-with-c-20-60",
+    "remove-the-deprecated-lcdd-58",
+    "revert-remove-the-deprecated",
+    "reverting-flipping-x-angle",
+    "revert-revert-remove-the",
+    "suppress-deprecation-warning",
+    "g4opticalparameters-isn-t-in"
+  ],
+  "unapplied": [
     "depr",
     "geant4"
   ],
-  "unapplied": [],
   "hidden": [],
   "patches": {
+    "restore-previous-behaviour-of": {
+      "oid": "26e669edce5b609ba5369f20737179c368a5d002"
+    },
+    "remove-the-explicit-mentioning": {
+      "oid": "cb50525bb21f2088567aa4dabb6276fbffcc3803"
+    },
+    "flipping-x-angle-boost-61": {
+      "oid": "76534580fbbc28f8cf8bfcf7c0ab429bcd59f9cb"
+    },
+    "allow-building-with-c-20-60": {
+      "oid": "41bb9898ad21fa614c3f84e8d27d662ddfb6d993"
+    },
+    "remove-the-deprecated-lcdd-58": {
+      "oid": "5c3826dc5bdffe3310d5b9d4e83001d75b74db74"
+    },
+    "revert-remove-the-deprecated": {
+      "oid": "8ac4e813d62247dea140ac83922087e3a587bab6"
+    },
+    "reverting-flipping-x-angle": {
+      "oid": "7eca7cb60acd9a624dd75c75990fa0d2117f37fb"
+    },
+    "revert-revert-remove-the": {
+      "oid": "4f6246a4e04273a6fdc69e6a9f6738b85de8eed0"
+    },
+    "suppress-deprecation-warning": {
+      "oid": "35fb6dda7d08e317b91ba6c2521773f572221c2f"
+    },
+    "g4opticalparameters-isn-t-in": {
+      "oid": "b19fbbb0f7a897397e0b2c6842d01ca1d785c279"
+    },
     "depr": {
       "oid": "42b7214949c11724198f7e747f1fbe1536d56207"
     },

@@ -1,0 +1,8 @@
+Bottom: af3ce98ef983a4c5859f41224b2c3ecead17bbf2
+Top:    463dc457481c0c98558098c9ec7662f61134a6b2
+Author: Juraj Smiesko <34742917+kjvbrt@users.noreply.github.com>
+Date:   2024-02-08 21:58:14 +0100
+
+Revert "Remove the deprecated lcdd() (#58)" (#65)
+
+This reverts commit 5c3826dc5bdffe3310d5b9d4e83001d75b74db74.
