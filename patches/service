@@ -1,0 +1,6 @@
+Bottom: 81108a35a579b13e89910a829c4c959c5681e2ea
+Top:    81108a35a579b13e89910a829c4c959c5681e2ea
+Author: sss <sss@karma>
+Date:   2024-12-12 10:15:36 -0500
+
+Plain service() is deprecated.  Use SmartIF.
