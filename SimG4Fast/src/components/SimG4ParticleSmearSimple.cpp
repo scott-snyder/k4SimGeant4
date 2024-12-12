@@ -21,7 +21,7 @@ StatusCode SimG4ParticleSmearSimple::initialize() {
   if (AlgTool::initialize().isFailure()) {
     return StatusCode::FAILURE;
   }
-  if (service("RndmGenSvc", m_randSvc).isFailure()) {
+  if (!service("RndmGenSvc", m_randSvc)) {
     error() << "Couldn't get RndmGenSvc" << endmsg;
     return StatusCode::FAILURE;
   }
