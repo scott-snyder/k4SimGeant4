@@ -1,6 +1,0 @@
-Bottom: c5d289ecad3128e7673dd98bfa69bb0090620070
-Top:    c5d289ecad3128e7673dd98bfa69bb0090620070
-Author: sss <sss@karma>
-Date:   2025-03-07 18:31:15 -0500
-
-Plain service() is deprecated.  Use SmartIF.

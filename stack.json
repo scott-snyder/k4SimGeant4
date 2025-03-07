@@ -1,11 +1,10 @@
 {
   "version": 5,
-  "prev": "22202f0205b2ad873c3b3cb3868d67dcd356a6b6",
-  "head": "022b376bb7e417d1e29d95753dcad27fda542832",
+  "prev": "7a6b2c734d2b0d431b5d8e8252dc94365defb60c",
+  "head": "0603809f7c0f2bb3efa23e199ca670388ddf3ebe",
   "applied": [
     "depr",
-    "geant4",
-    "service"
+    "geant4"
   ],
   "unapplied": [],
   "hidden": [],
@@ -15,9 +14,6 @@
     },
     "geant4": {
       "oid": "0603809f7c0f2bb3efa23e199ca670388ddf3ebe"
-    },
-    "service": {
-      "oid": "022b376bb7e417d1e29d95753dcad27fda542832"
     }
   }
 }
