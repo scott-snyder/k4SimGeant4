@@ -1,11 +1,11 @@
 {
   "version": 5,
-  "prev": "9cc67852a38cd52e5fbef38047c561c2431a643e",
+  "prev": "cb497ddcf45075e6eb358c64ef35877db78d0990",
   "head": "4f79d74d52fec38001045ef32df36d09e150fc33",
   "applied": [
     "depr",
     "geant4",
-    "unint"
+    "uninit"
   ],
   "unapplied": [],
   "hidden": [],
@@ -16,7 +16,7 @@
     "geant4": {
       "oid": "0603809f7c0f2bb3efa23e199ca670388ddf3ebe"
     },
-    "unint": {
+    "uninit": {
       "oid": "4f79d74d52fec38001045ef32df36d09e150fc33"
     }
   }
