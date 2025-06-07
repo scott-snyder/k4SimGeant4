@@ -40,7 +40,7 @@ private:
   /// Pointer to the geometry service
   ServiceHandle<IGeoSvc> m_geoSvc;
   /// Handle for trajectory hits including position information
-  mutable DataHandle<edm4hep::TrackerHit3DCollection> m_trackHits{"Hits/Trajectory",
+  mutable k4FWCore::DataHandle<edm4hep::TrackerHit3DCollection> m_trackHits{"Hits/Trajectory",
                                                                       Gaudi::DataHandle::Writer, this};
 };
 
