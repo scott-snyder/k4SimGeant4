@@ -45,7 +45,7 @@ public:
 
 private:
   /// Handle for the EDM particles and MC particles associations to be read
-  mutable DataHandle<edm4hep::RecoMCParticleLinkCollection> m_particlesMCparticles{"ParticlesMCparticles",
+  mutable k4FWCore::DataHandle<edm4hep::RecoMCParticleLinkCollection> m_particlesMCparticles{"ParticlesMCparticles",
                                                                                   Gaudi::DataHandle::Reader, this};
   /// Pointer to the interface of histogram service
   SmartIF<ITHistSvc> m_histSvc;
