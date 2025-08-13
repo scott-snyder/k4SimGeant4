@@ -3,31 +3,18 @@
 #include "GaudiKernel/Service.h"
 #include "GeoConstruction.h"
 #include "TGeoManager.h"
+#include "k4FWCore/k4_check.h"
 
 #include "DD4hep/Printout.h"
-
-#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 
 using namespace Gaudi;
 
 DECLARE_COMPONENT(GeoSvc)
 
-GeoSvc::GeoSvc(const std::string& name, ISvcLocator* svc)
-: base_class(name, svc), m_dd4hepgeo(0), m_geant4geo(0) {}
-
-GeoSvc::~GeoSvc() {
-  if (m_dd4hepgeo){
-      //m_dd4hepgeo->destroyInstance();
-  }
-}
+GeoSvc::~GeoSvc() = default;
 
 StatusCode GeoSvc::initialize() {
-  {
-    StatusCode sc = Service::initialize();
-    if (!sc.isSuccess()) {
-      return sc;
-    }
-  }
+  K4_CHECK( Service::initialize() );
 
   // Turn off TGeo printouts if appropriate for the msg level
   if (msgLevel() >= MSG::INFO) {
@@ -37,32 +24,19 @@ StatusCode GeoSvc::initialize() {
   dd4hep::setPrintLevel(dd4hep::PrintLevel(printoutLevel));
 
   // Build DD4Hep Geometry
-  {
-    StatusCode sc = buildDD4HepGeo();
-    if (sc.isFailure()) {
-      error() << "Could not build DD4Hep geometry!" << endmsg;
-      return sc;
-    } else {
-      info() <<  "DD4Hep geometry SUCCESSFULLY built." << endmsg;
-    }
-  }
+  K4_CHECK( buildDD4HepGeo() );
+  info() <<  "DD4Hep geometry SUCCESSFULLY built." << endmsg;
 
   // Build Geant4 Geometry
   if(m_buildGeant4Geo) {
-    StatusCode sc = buildGeant4Geo();
-    if (sc.isFailure()) {
-      error() << "Could not build Geant4 geometry!" << endmsg;
-    } else {
-      info() << "Geant4 geometry SUCCESSFULLY built." << endmsg;
-    }
+    K4_CHECK( buildGeant4Geo() );
+    info() << "Geant4 geometry SUCCESSFULLY built." << endmsg;
   } else {
     debug() << "Conversion to Geant4 Geometry is disabled" << endmsg;
   }
 
   return StatusCode::SUCCESS;
 }
-
-StatusCode GeoSvc::finalize() { return StatusCode::SUCCESS; }
 
 StatusCode GeoSvc::buildDD4HepGeo() {
   // Retrieve the static instance of the DD4HEP::Geometry
@@ -86,7 +60,6 @@ StatusCode GeoSvc::buildDD4HepGeo() {
   return StatusCode::SUCCESS;
 }
 
-dd4hep::Detector* GeoSvc::getDetector() { return m_dd4hepgeo; }
 const dd4hep::Detector* GeoSvc::getDetector() const { return m_dd4hepgeo; }
 
 dd4hep::DetElement GeoSvc::getDD4HepGeo() { return m_dd4hepgeo->world(); }
@@ -105,9 +78,6 @@ StatusCode GeoSvc::buildGeant4Geo() {
 
 G4VUserDetectorConstruction* GeoSvc::getGeant4Geo() { return (m_geant4geo.get()); }
 
-std::string GeoSvc::constantAsString(std::string const& name) {
-  return m_dd4hepgeo->constantAsString(name);
-}
 std::string GeoSvc::constantAsString(std::string const& name) const {
   return m_dd4hepgeo->constantAsString(name);
 }
