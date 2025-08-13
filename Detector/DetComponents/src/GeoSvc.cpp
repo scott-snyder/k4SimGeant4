@@ -86,7 +86,7 @@ StatusCode GeoSvc::buildDD4HepGeo() {
   return StatusCode::SUCCESS;
 }
 
-dd4hep::Detector* GeoSvc::getDetector() { return m_dd4hepgeo; }
+const dd4hep::Detector* GeoSvc::getDetector() const { return m_dd4hepgeo; }
 
 dd4hep::DetElement GeoSvc::getDD4HepGeo() { return m_dd4hepgeo->world(); }
 
@@ -104,6 +104,6 @@ StatusCode GeoSvc::buildGeant4Geo() {
 
 G4VUserDetectorConstruction* GeoSvc::getGeant4Geo() { return (m_geant4geo.get()); }
 
-std::string GeoSvc::constantAsString(std::string const& name) {
+std::string GeoSvc::constantAsString(std::string const& name) const {
   return m_dd4hepgeo->constantAsString(name);
 }
