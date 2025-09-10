@@ -1,6 +1,6 @@
 {
   "version": 5,
-  "prev": "6786c85b071bdf1559c290d50a66743facff4720",
+  "prev": "cc9baa199fcf75e5642202a404e1d180e687f54e",
   "head": "c550dbf5b68be45f951522db2d54e8a75024fae1",
   "applied": [
     "depr",
@@ -10,7 +10,7 @@
     "cmakewarn",
     "danglewarn",
     "geoConst1",
-    "geoConst"
+    "geoConst2"
   ],
   "unapplied": [],
   "hidden": [],
@@ -30,11 +30,11 @@
     "geant4": {
       "oid": "0603809f7c0f2bb3efa23e199ca670388ddf3ebe"
     },
-    "geoConst": {
-      "oid": "c550dbf5b68be45f951522db2d54e8a75024fae1"
-    },
     "geoConst1": {
       "oid": "a46647a74c42ec5de61c8ce77de11261990b815f"
+    },
+    "geoConst2": {
+      "oid": "c550dbf5b68be45f951522db2d54e8a75024fae1"
     },
     "uninit": {
       "oid": "4f79d74d52fec38001045ef32df36d09e150fc33"
