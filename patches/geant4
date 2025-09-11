@@ -1,7 +1,7 @@
-Bottom: cd94b1362689ed187357cb8b80ace354086c785f
-Top:    c5d289ecad3128e7673dd98bfa69bb0090620070
+Bottom: ec5a7cf3ba66dac808c342435a6b06d070ce3a20
+Top:    ec5a7cf3ba66dac808c342435a6b06d070ce3a20
 Author: scott snyder <sss@karma>
-Date:   2025-03-07 18:31:15 -0500
+Date:   2025-09-10 22:36:40 -0400
 
 G4OpticalParameters isn't in the g4 version i'm currently using.
 dike out references to it.
