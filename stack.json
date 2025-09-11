@@ -1,14 +1,14 @@
 {
   "version": 5,
-  "prev": "4ac5325aa858aa8de183ac16640db6e9ea063871",
-  "head": "01199284541cadba53e2318f47c3493dad8a2854",
+  "prev": "4812b450bcbff980935df85f1806778722d7330d",
+  "head": "dc3ca4f31ab3bfc5d6fb8c2dab0e27f1104030f3",
   "applied": [
     "depr",
-    "geant4"
+    "geant4",
+    "uninit",
+    "dhns"
   ],
   "unapplied": [
-    "uninit",
-    "dhns",
     "cmakewarn",
     "danglewarn",
     "geoConst1",
@@ -26,7 +26,7 @@
       "oid": "7126136cf8158b118bdc5a0411f307300f7b06ee"
     },
     "dhns": {
-      "oid": "c12f66dffd3a9b3f870a8eefbbf61924b16cf39f"
+      "oid": "dc3ca4f31ab3bfc5d6fb8c2dab0e27f1104030f3"
     },
     "geant4": {
       "oid": "01199284541cadba53e2318f47c3493dad8a2854"
@@ -38,7 +38,7 @@
       "oid": "e2d6c8296aff035f95ff5eee3ba9970b1debefe7"
     },
     "uninit": {
-      "oid": "4f79d74d52fec38001045ef32df36d09e150fc33"
+      "oid": "a372d3e6c936d1c6f6381a980f438e308676a4ca"
     }
   }
 }
