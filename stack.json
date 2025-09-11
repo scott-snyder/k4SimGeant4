@@ -1,12 +1,10 @@
 {
   "version": 5,
-  "prev": "d902a89ac8348baed41ee974c64842773c79b155",
-  "head": "958e6ff3c2b2dd84d5306402cfe6f748bd454447",
+  "prev": "6b95c9d247e5a0f58c4cc705d00efcbcf4d4072d",
+  "head": "5ff1dc58c674cea2ef22f65e833dbc8b0d9e2189",
   "applied": [
     "depr",
-    "geant4",
     "uninit",
-    "dhns",
     "cmakewarn",
     "danglewarn"
   ],
@@ -17,19 +15,13 @@
   "hidden": [],
   "patches": {
     "cmakewarn": {
-      "oid": "2bb9178a05a1e3cef0a6208f31fd181d3857247e"
+      "oid": "d4080df1e3c7ca7b3d7794bf254673e2b2a9a464"
     },
     "danglewarn": {
-      "oid": "958e6ff3c2b2dd84d5306402cfe6f748bd454447"
+      "oid": "5ff1dc58c674cea2ef22f65e833dbc8b0d9e2189"
     },
     "depr": {
       "oid": "629076bf20e493a009316f3acefa769403ba4f2e"
-    },
-    "dhns": {
-      "oid": "9aa0a3976400bb9550d46ad7f3da37bd312d3e45"
-    },
-    "geant4": {
-      "oid": "78f98484e099ec2664403a09187b8cdfa2e84568"
     },
     "geoConst1": {
       "oid": "50e594d33380c374aa31a4cfc1e779fc1dc0fdd2"
@@ -38,7 +30,7 @@
       "oid": "2430fc01a1c15f972ddfeeeb3097bdaebb1643c7"
     },
     "uninit": {
-      "oid": "638cadc54b8198eccdbc8ac46fab9ee87db1c7c7"
+      "oid": "f5398eaca60dc5b5a07a23bde01214d4c947d1f3"
     }
   }
 }
