@@ -1,18 +1,19 @@
 {
   "version": 5,
-  "prev": "183cc51d58e0941d4e8fdbc8ef58452c26a9e669",
-  "head": "2430fc01a1c15f972ddfeeeb3097bdaebb1643c7",
+  "prev": "9c5346578026beb3aa66a1412d8c502d2899735b",
+  "head": "b6af8836ce36e6ce5e76592de3b965e08415afe6",
   "applied": [
     "depr",
     "geant4",
     "uninit",
     "dhns",
     "cmakewarn",
-    "danglewarn",
+    "danglewarn"
+  ],
+  "unapplied": [
     "geoConst1",
     "geoConst2"
   ],
-  "unapplied": [],
   "hidden": [],
   "patches": {
     "cmakewarn": {
