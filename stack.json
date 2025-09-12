@@ -1,16 +1,16 @@
 {
   "version": 5,
-  "prev": "7d9e434b2c5a0c2ec35a0769f9e3e00d90d72578",
-  "head": "5d94eb2b0ebe5735e27dd812b5edf665e6714104",
+  "prev": "eb1fed3865ce1a564317acabf2915bdfea99be7b",
+  "head": "5291712eccc2074fbd0f95918053944d684ed8c3",
   "applied": [
     "depr",
     "cmakewarn",
     "danglewarn",
     "geoConst1",
-    "ci"
+    "ci",
+    "uninit"
   ],
   "unapplied": [
-    "uninit",
     "geoConst2"
   ],
   "hidden": [],
@@ -34,7 +34,7 @@
       "oid": "6418e8609c324b0cf71feafc20e42946f3b3fff6"
     },
     "uninit": {
-      "oid": "f5398eaca60dc5b5a07a23bde01214d4c947d1f3"
+      "oid": "5291712eccc2074fbd0f95918053944d684ed8c3"
     }
   }
 }
