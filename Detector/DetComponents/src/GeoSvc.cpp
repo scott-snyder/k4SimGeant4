@@ -15,7 +15,7 @@ GeoSvc::~GeoSvc() = default;
 
 
 StatusCode GeoSvc::initialize() {
-  K4_CHECK( Service::initialize() );
+  K4_GAUDI_CHECK( Service::initialize() );
 
   // Turn off TGeo printouts if appropriate for the msg level
   if (msgLevel() >= MSG::INFO) {
@@ -25,12 +25,12 @@ StatusCode GeoSvc::initialize() {
   dd4hep::setPrintLevel(dd4hep::PrintLevel(printoutLevel));
 
   // Build DD4Hep Geometry
-  K4_CHECK( buildDD4HepGeo() );
+  K4_GAUDI_CHECK( buildDD4HepGeo() );
   info() <<  "DD4Hep geometry SUCCESSFULLY built." << endmsg;
 
   // Build Geant4 Geometry
   if(m_buildGeant4Geo) {
-    K4_CHECK( buildGeant4Geo() );
+    K4_GAUDI_CHECK( buildGeant4Geo() );
     info() << "Geant4 geometry SUCCESSFULLY built." << endmsg;
   } else {
     debug() << "Conversion to Geant4 Geometry is disabled" << endmsg;
