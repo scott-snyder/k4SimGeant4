@@ -1,12 +1,14 @@
 Bottom: 050aa416361e4b3b59ab80a1cd88aa43fa82e67f
 Top:    9ab8269d3ff8377c517aaa3eed9e83de4a5ae663
 Author: sss <sss@karma>
-Date:   2025-09-12 16:57:13 -0400
+Date:   2025-09-13 19:59:20 -0400
 
 Making IGeoSvc::getDetector and constantAsString const.
 
-Make IGeoSvc::getDetector and constantAsString const.
-For now (until the interface class is changed) we retain the non-const
-overloads.
+We want to make the methods of IGeoSvc const, for thread-safety and
+general cleanliness.
+Here, we add change GeoSvc::getDetector and constantAsString to be const.
+However, for now (until the interface class is changed) we also
+retain the non-const overloads.
 
 Also prepare for IGeoSvc::getDetector returning a const pointer.
