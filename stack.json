@@ -1,10 +1,11 @@
 {
   "version": 5,
-  "prev": "224056563cb71f3cc143a23eecdf679db15d75cb",
-  "head": "73660ed454e93cb980641b573e8384574f58b8f0",
-  "applied": [],
+  "prev": "8281bc85494aa51979ce3f8fbf48b4fa7611ebfa",
+  "head": "629076bf20e493a009316f3acefa769403ba4f2e",
+  "applied": [
+    "depr"
+  ],
   "unapplied": [
-    "depr",
     "cmakewarn",
     "danglewarn",
     "geoConst1",
