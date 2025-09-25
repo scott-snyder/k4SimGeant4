@@ -1,15 +1,15 @@
 {
   "version": 5,
-  "prev": "812ef0a82de0243757b79b195bfef004d24ec081",
-  "head": "629076bf20e493a009316f3acefa769403ba4f2e",
+  "prev": "5d2c985b342123482495cf631df009d563a4db72",
+  "head": "311ae7cb4331725f0f133fe6c09be726b0813d29",
   "applied": [
-    "depr"
+    "depr",
+    "uninit"
   ],
   "unapplied": [
     "cmakewarn",
     "danglewarn",
     "geoConst1",
-    "uninit",
     "geoConst2",
     "ci"
   ],
@@ -34,7 +34,7 @@
       "oid": "8eeef70db90f69522ab98f53d23dbeed8b07e05c"
     },
     "uninit": {
-      "oid": "fddabe597fa0bcf0644577ce9a8d1c5f71ef09f4"
+      "oid": "311ae7cb4331725f0f133fe6c09be726b0813d29"
     }
   }
 }
