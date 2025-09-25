@@ -1,11 +1,9 @@
 {
   "version": 5,
-  "prev": "8281bc85494aa51979ce3f8fbf48b4fa7611ebfa",
-  "head": "629076bf20e493a009316f3acefa769403ba4f2e",
+  "prev": "9128cd100b508db43b8ccf880e2ca5bc30023cb8",
+  "head": "8e8a619665a1aae81509cfe9330c6e4219cf0ee4",
   "applied": [
-    "depr"
-  ],
-  "unapplied": [
+    "depr",
     "cmakewarn",
     "danglewarn",
     "geoConst1",
@@ -13,10 +11,11 @@
     "geoConst2",
     "ci"
   ],
+  "unapplied": [],
   "hidden": [],
   "patches": {
     "ci": {
-      "oid": "6f70d55578adf292221fe032de721c747101fc39"
+      "oid": "8e8a619665a1aae81509cfe9330c6e4219cf0ee4"
     },
     "cmakewarn": {
       "oid": "f6d44cffc165df534851e18e4e8f92cb74cf4c67"
