@@ -1,7 +1,7 @@
 Bottom: dae01add4452ef6c8245259e913ac63e13750434
 Top:    81895eae3f16ddfdbd1a00bcce58db9fed638c91
 Author: sss <sss@karma>
-Date:   2025-10-05 22:07:37 -0400
+Date:   2025-10-05 22:07:49 -0400
 
 Making IGeoSvc::getDetector and constantAsString const.
 

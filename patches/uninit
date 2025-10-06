@@ -1,8 +1,0 @@
-Bottom: b83a81559b646b3e6f0e9937f22740b0069af5a8
-Top:    b83a81559b646b3e6f0e9937f22740b0069af5a8
-Author: sss <sss@karma>
-Date:   2025-10-05 22:07:37 -0400
-
-Fix possible use of uninitialized variable.
-
-Fixes warning seen when compiling with gcc15.
