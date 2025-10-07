@@ -29,7 +29,7 @@ public:
   virtual const dd4hep::Detector* getDetector() const override;
   virtual std::string constantAsString(std::string const& name) const override;
   // receive Geant4 Geometry
-  virtual G4VUserDetectorConstruction* getGeant4Geo();
+  virtual G4VUserDetectorConstruction* getGeant4Geo() override;
 
 private:
   /// Pointer to the interface to the DD4hep geometry
