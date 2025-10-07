@@ -1,16 +1,17 @@
 {
   "version": 5,
-  "prev": "2c322599b65976f39b946d1b6db1474c84edf4f4",
-  "head": "3c9366e2588535794cb76fc0d8563f50be7fd5cf",
+  "prev": "9b8db22b077733a0da9f3c4e9969cfcc519bfafb",
+  "head": "0b12afe395c2d27475178149ba16750ea7e32b33",
   "applied": [
     "depr",
     "cmakewarn",
     "danglewarn",
     "geoConst1",
-    "geoConst2",
+    "geoConst2"
+  ],
+  "unapplied": [
     "ci"
   ],
-  "unapplied": [],
   "hidden": [],
   "patches": {
     "ci": {
