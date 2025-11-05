@@ -1,13 +1,17 @@
 {
   "version": 5,
-  "prev": "b7219dc4417425cf6cabeedfa33c610a7d940e6c",
-  "head": "d4e1a6dc3f234a09d2e77b9a9fc73cba987ec39e",
+  "prev": "d81a77df3a2f69ecc0adf81ee5422d0bc804cb76",
+  "head": "d3e3b59be29d3420fc79258012e483e8e8900a1b",
   "applied": [
-    "depr"
+    "depr",
+    "cmakewarn"
   ],
   "unapplied": [],
   "hidden": [],
   "patches": {
+    "cmakewarn": {
+      "oid": "d3e3b59be29d3420fc79258012e483e8e8900a1b"
+    },
     "depr": {
       "oid": "d4e1a6dc3f234a09d2e77b9a9fc73cba987ec39e"
     }
