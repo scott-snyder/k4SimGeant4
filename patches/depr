@@ -1,0 +1,6 @@
+Bottom: fba87ec1cef2d85ab8decc8044a794291fd3a667
+Top:    b83a81559b646b3e6f0e9937f22740b0069af5a8
+Author: scott snyder <sss@karma>
+Date:   2025-11-05 16:49:44 -0500
+
+Suppress deprecation warning.
