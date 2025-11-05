@@ -1,11 +1,12 @@
 {
   "version": 5,
-  "prev": "67787bed834d647441cf8b0b7432be54c1fee423",
-  "head": "47c0cb589dc7fd7a37205f91f8844187968b6165",
+  "prev": "1a9a262646e754f4cbc4be602574614e7489d0a8",
+  "head": "cc091d9938829359ff445800ea045d97e8bfe542",
   "applied": [
     "depr",
     "cmakewarn",
-    "danglewarn"
+    "danglewarn",
+    "geoConst1"
   ],
   "unapplied": [],
   "hidden": [],
@@ -18,6 +19,9 @@
     },
     "depr": {
       "oid": "d4e1a6dc3f234a09d2e77b9a9fc73cba987ec39e"
+    },
+    "geoConst1": {
+      "oid": "cc091d9938829359ff445800ea045d97e8bfe542"
     }
   }
 }
