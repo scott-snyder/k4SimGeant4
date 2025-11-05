@@ -1,0 +1,12 @@
+Bottom: ca0a249122b323e03b062bd97ca83dfa2fa209e6
+Top:    cce0a9b3730c61390d9dfb3f74ecc9c80915e120
+Author: sss <sss@karma>
+Date:   2025-11-05 16:49:55 -0500
+
+Remove non-const methods of GeoSvc.
+
+Now that the IGeoSvc interface class
+has been updated, we can remove the non-const methods from its
+derived classes (and add override keywords).
+
+Also some modernization / clean up.
