@@ -1,16 +1,20 @@
 {
   "version": 5,
-  "prev": "1a9a262646e754f4cbc4be602574614e7489d0a8",
-  "head": "cc091d9938829359ff445800ea045d97e8bfe542",
+  "prev": "2df06fa3dd544eb4ca20ac2cf872cebab6e04aa9",
+  "head": "3232d97cde4f54f477238ede0690f0c5c44a8479",
   "applied": [
     "depr",
     "cmakewarn",
     "danglewarn",
-    "geoConst1"
+    "geoConst1",
+    "ci"
   ],
   "unapplied": [],
   "hidden": [],
   "patches": {
+    "ci": {
+      "oid": "3232d97cde4f54f477238ede0690f0c5c44a8479"
+    },
     "cmakewarn": {
       "oid": "d3e3b59be29d3420fc79258012e483e8e8900a1b"
     },
