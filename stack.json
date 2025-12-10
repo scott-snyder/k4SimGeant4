@@ -1,12 +1,13 @@
 {
   "version": 5,
-  "prev": "6ca9595b5f39e2c2a3027fdef7897311a4534054",
-  "head": "60f0fa9ebbb673efb270d314e5aff03f3e581b00",
-  "applied": [],
-  "unapplied": [
+  "prev": "c338ef8b3673d18b95607ecc8eac0d78166a687d",
+  "head": "9d16a31bd3f92ed57701f45e77b84a49403dc868",
+  "applied": [
     "depr",
     "cmakewarn",
-    "danglewarn",
+    "danglewarn"
+  ],
+  "unapplied": [
     "geoConst1",
     "ci",
     "geoConst2"
@@ -17,13 +18,13 @@
       "oid": "3232d97cde4f54f477238ede0690f0c5c44a8479"
     },
     "cmakewarn": {
-      "oid": "d3e3b59be29d3420fc79258012e483e8e8900a1b"
+      "oid": "58f7b9120ccc66d8ccee5f1e972508b8dcf50416"
     },
     "danglewarn": {
-      "oid": "47c0cb589dc7fd7a37205f91f8844187968b6165"
+      "oid": "9d16a31bd3f92ed57701f45e77b84a49403dc868"
     },
     "depr": {
-      "oid": "d4e1a6dc3f234a09d2e77b9a9fc73cba987ec39e"
+      "oid": "f0aed28075bb9e6135ccb4ce260f0ceb65fae8f8"
     },
     "geoConst1": {
       "oid": "cc091d9938829359ff445800ea045d97e8bfe542"
