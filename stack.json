@@ -1,21 +1,20 @@
 {
   "version": 5,
-  "prev": "c338ef8b3673d18b95607ecc8eac0d78166a687d",
-  "head": "9d16a31bd3f92ed57701f45e77b84a49403dc868",
+  "prev": "1b091993b7e6c461a3713357e5bb5fb8ba5b01cf",
+  "head": "6f6e8f5c6f4173f14bea7249a029f41c141cf17b",
   "applied": [
     "depr",
     "cmakewarn",
-    "danglewarn"
-  ],
-  "unapplied": [
+    "danglewarn",
     "geoConst1",
     "ci",
     "geoConst2"
   ],
+  "unapplied": [],
   "hidden": [],
   "patches": {
     "ci": {
-      "oid": "3232d97cde4f54f477238ede0690f0c5c44a8479"
+      "oid": "cfea8a37e3374feb42f6e7edff1db9dcc1908b66"
     },
     "cmakewarn": {
       "oid": "58f7b9120ccc66d8ccee5f1e972508b8dcf50416"
@@ -27,10 +26,10 @@
       "oid": "f0aed28075bb9e6135ccb4ce260f0ceb65fae8f8"
     },
     "geoConst1": {
-      "oid": "cc091d9938829359ff445800ea045d97e8bfe542"
+      "oid": "10b9f2a11a6356911b308e86505b54bde1f85f8f"
     },
     "geoConst2": {
-      "oid": "bc001051a9c474c2c6f8fd267b9a66c4aabd86e6"
+      "oid": "6f6e8f5c6f4173f14bea7249a029f41c141cf17b"
     }
   }
 }
