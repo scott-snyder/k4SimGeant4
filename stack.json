@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "4731e58229c14325dfc555256a235ab3b2516290",
-  "head": "94167d794108498271a727673bbf2ac227e335d0",
+  "prev": "27a7cdddcf99f46d9cc3fed7bd971ef2841d41c1",
+  "head": "3cdd40c78f63082222c2d72c40a78e3215f0f377",
   "applied": [
     "depr",
     "cmakewarn",
@@ -10,7 +10,8 @@
     "ci",
     "geoConst2",
     "cxx26",
-    "edm4hep"
+    "edm4hep",
+    "refresh-temp"
   ],
   "unapplied": [],
   "hidden": [],
@@ -38,6 +39,9 @@
     },
     "geoConst2": {
       "oid": "6f6e8f5c6f4173f14bea7249a029f41c141cf17b"
+    },
+    "refresh-temp": {
+      "oid": "3cdd40c78f63082222c2d72c40a78e3215f0f377"
     }
   }
 }
