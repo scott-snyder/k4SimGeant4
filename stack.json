@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "27a7cdddcf99f46d9cc3fed7bd971ef2841d41c1",
-  "head": "3cdd40c78f63082222c2d72c40a78e3215f0f377",
+  "prev": "0dccbacf7b44d1728c0467757ecfe79519657154",
+  "head": "62c0e5dadb7ee89f3d3412f4b41e9aca44136e55",
   "applied": [
     "depr",
     "cmakewarn",
@@ -10,8 +10,7 @@
     "ci",
     "geoConst2",
     "cxx26",
-    "edm4hep",
-    "refresh-temp"
+    "edm4hep"
   ],
   "unapplied": [],
   "hidden": [],
@@ -32,16 +31,13 @@
       "oid": "f0aed28075bb9e6135ccb4ce260f0ceb65fae8f8"
     },
     "edm4hep": {
-      "oid": "94167d794108498271a727673bbf2ac227e335d0"
+      "oid": "62c0e5dadb7ee89f3d3412f4b41e9aca44136e55"
     },
     "geoConst1": {
       "oid": "10b9f2a11a6356911b308e86505b54bde1f85f8f"
     },
     "geoConst2": {
       "oid": "6f6e8f5c6f4173f14bea7249a029f41c141cf17b"
-    },
-    "refresh-temp": {
-      "oid": "3cdd40c78f63082222c2d72c40a78e3215f0f377"
     }
   }
 }
