@@ -1,6 +1,6 @@
 {
   "version": 5,
-  "prev": "7cf662e41a378dd0d4c1c37fb5d64715efa6fced",
+  "prev": "cc9ade884fe234d228c459d7622c36f6e32a92ba",
   "head": "7449b5092c6a4e90448658d457296914bcb70609",
   "applied": [
     "depr",
@@ -11,10 +11,10 @@
     "cxx26",
     "edm4hep"
   ],
-  "unapplied": [
+  "unapplied": [],
+  "hidden": [
     "ci"
   ],
-  "hidden": [],
   "patches": {
     "ci": {
       "oid": "adb2a06a6a90e8c006f4b7baf1a7aea3b312fe68"
