@@ -1,6 +1,6 @@
 #include "GeoSvc.h"
 #include "GeoConstruction.h"
-#include "k4FWCore/k4_check.h"
+#include "k4FWCore/GaudiChecks.h"
 
 #include <GaudiKernel/IMessageSvc.h>
 #include <GaudiKernel/Service.h>
