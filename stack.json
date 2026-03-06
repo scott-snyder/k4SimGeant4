@@ -1,15 +1,15 @@
 {
   "version": 5,
-  "prev": "f27a1cb10651c44b75a7640fac6ab1c4051163f2",
-  "head": "a7180f77235c508ae71088b32eb324677f11ed39",
+  "prev": "ff30ee8339edeedb640415b2c22917dc96c06adb",
+  "head": "0f62c879d7750f4425bc9e042e39191d6f6ad07c",
   "applied": [
     "depr",
-    "cmakewarn"
+    "cmakewarn",
+    "edm4hep"
   ],
   "unapplied": [
     "geoConst1",
-    "geoConst2",
-    "edm4hep"
+    "geoConst2"
   ],
   "hidden": [
     "ci"
@@ -25,7 +25,7 @@
       "oid": "9c9502444c4d8f227037852e769be1377405743c"
     },
     "edm4hep": {
-      "oid": "265dc5da1f22dfb45dbfccd602efcca083e0be3f"
+      "oid": "0f62c879d7750f4425bc9e042e39191d6f6ad07c"
     },
     "geoConst1": {
       "oid": "bab0518ea8a7e2a6ae753ab53cef1df134b06c08"
