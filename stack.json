@@ -1,14 +1,13 @@
 {
   "version": 5,
-  "prev": "7749c4448ea74fff0e9044c4ca6b017240027893",
-  "head": "3a3698b4312fe29ec39b6a65958c777d8e5b6a43",
+  "prev": "9a76ed7c17a93fa673ae05e2a886f342ee4af679",
+  "head": "92705f0261fb0b9d2f6c9e80ce56c7c6162bca99",
   "applied": [
-    "depr"
-  ],
-  "unapplied": [
+    "depr",
     "geoConst1",
     "geoConst2"
   ],
+  "unapplied": [],
   "hidden": [],
   "patches": {
     "depr": {
