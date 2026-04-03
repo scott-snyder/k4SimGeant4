@@ -9,7 +9,7 @@
 #include "k4FWCore/DataHandle.h"
 
 // Geant4
-#include "G4SystemOfUnits.hh"
+#include "CLHEP/Units/SystemOfUnits.h"
 
 // Forward declarations
 // Geant4
