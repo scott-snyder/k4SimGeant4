@@ -1,7 +1,7 @@
 #include "SimG4Common/MapField3DRegular.h"
 
 // Geant 4
-#include "G4SystemOfUnits.hh"
+#include "CLHEP/Units/SystemOfUnits.h"
 #include <algorithm>
 
 /**
