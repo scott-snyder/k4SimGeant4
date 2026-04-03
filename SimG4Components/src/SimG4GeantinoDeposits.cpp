@@ -11,7 +11,10 @@
 #include "G4VUserPhysicsList.hh"
 
 #include "G4ParticleTable.hh"
-#include "G4SystemOfUnits.hh"
+#include "CLHEP/Units/SystemOfUnits.h"
+
+using CLHEP::MeV;
+using CLHEP::eplus;
 
 class G4ChargedGeantinoNegative : public G4ParticleDefinition {
 private:
