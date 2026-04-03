@@ -8,7 +8,7 @@
 #include "SimG4Interface/ISimG4MagneticFieldTool.h"
 
 // Geant4
-#include "G4SystemOfUnits.hh"
+#include "CLHEP/Units/SystemOfUnits.h"
 
 // Forward declarations:
 // Geant 4 classes
@@ -67,9 +67,9 @@ private:
   /// Set with property DeltaOneStep
   Gaudi::Property<double> m_deltaOneStep{this, "DeltaOneStep", 0, "Delta(one-step)"};
   /// Upper limit of the step size, see G4 doc for more details. Set with property MaximumStep
-  Gaudi::Property<double> m_maxStep{this, "MaximumStep", 1. * m, "Maximum step length in field (see G4 documentation)"};
+  Gaudi::Property<double> m_maxStep{this, "MaximumStep", 1. * CLHEP::m, "Maximum step length in field (see G4 documentation)"};
   /// Lower limit of the step size, see G4 doc for more details. Set with property MaximumStep
-  Gaudi::Property<double> m_minStep{this, "MinimumStep", 0.01 * mm,
+  Gaudi::Property<double> m_minStep{this, "MinimumStep", 0.01 * CLHEP::mm,
                                     "Minimum step length in field (see G4 documentation)"};
   /// Name of the integration stepper, defaults to NystromRK4.
   Gaudi::Property<std::string> m_integratorStepper{this, "IntegratorStepper", "NystromRK4", "Integrator stepper name"};
@@ -79,11 +79,11 @@ private:
   /// Field component in Y direction. Set with property FieldComponentY
   Gaudi::Property<double> m_fieldComponentY{this, "FieldComponentY", 0, "Field Y component"};
   /// Field component in Z direction. Set with property FieldComponentZ
-  Gaudi::Property<double> m_fieldComponentZ{this, "FieldComponentZ", -4 * tesla, "Field Z component"};
+  Gaudi::Property<double> m_fieldComponentZ{this, "FieldComponentZ", -4 * CLHEP::tesla, "Field Z component"};
   /// Size of the field in radial direction. Set with property FieldRMax
-  Gaudi::Property<double> m_fieldRadMax{this, "FieldRMax", 6 * m, "Field max radius"};
+  Gaudi::Property<double> m_fieldRadMax{this, "FieldRMax", 6 * CLHEP::m, "Field max radius"};
   /// Size of the field along the beam line. Set with property FieldZMax
-  Gaudi::Property<double> m_fieldZMax{this, "FieldZMax", 20. * m, "Field max Z"};
+  Gaudi::Property<double> m_fieldZMax{this, "FieldZMax", 20. * CLHEP::m, "Field max Z"};
 };
 
 #endif

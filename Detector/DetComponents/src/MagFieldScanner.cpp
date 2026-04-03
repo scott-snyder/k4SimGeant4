@@ -2,13 +2,15 @@
 
 // Geant4
 #include "G4FieldManager.hh"
-#include "G4SystemOfUnits.hh"
+#include "CLHEP/Units/SystemOfUnits.h"
 #include "G4TransportationManager.hh"
 
 // ROOT
 #include "TFile.h"
 #include "TH2D.h"
 #include "TString.h"
+
+using CLHEP::tesla;
 
 MagFieldScanner::MagFieldScanner(const std::string& name, ISvcLocator* svcLoc)
     : Service(name, svcLoc), m_geoSvc("GeoSvc", name), m_simG4Svc("SimG4Svc", name) {}

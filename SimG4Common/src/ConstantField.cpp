@@ -1,7 +1,9 @@
 // local
 #include "SimG4Common/ConstantField.h"
 // Geant 4
-#include "G4SystemOfUnits.hh"
+#include "CLHEP/Units/SystemOfUnits.h"
+
+using CLHEP::m;
 
 namespace sim {
 ConstantField::ConstantField() : m_bX(0), m_bY(0), m_bZ(0), m_rMax(9 * m), m_zMax(8 * m) {}
