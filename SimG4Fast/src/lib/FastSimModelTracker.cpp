@@ -12,8 +12,10 @@
 #include "G4FieldTrackUpdator.hh"
 #include "G4PathFinder.hh"
 #include "G4PrimaryParticle.hh"
-#include "G4SystemOfUnits.hh"
+#include "CLHEP/Units/SystemOfUnits.h"
 #include "G4UnitsTable.hh"
+
+using CLHEP::m;
 
 namespace sim {
 
