@@ -32,6 +32,12 @@
 #include "G4NystromRK4.hh"
 #include "G4PropagatorInField.hh"
 
+using CLHEP::m;
+using CLHEP::meter;
+using CLHEP::millimeter;
+using CLHEP::tesla;
+
+
 // Declaration of the Tool
 DECLARE_COMPONENT(SimG4MagneticFieldFromMapTool)
 
