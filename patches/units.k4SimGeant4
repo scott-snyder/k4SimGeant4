@@ -1,0 +1,13 @@
+Bottom: 7c7b94f9bdb543921c2554fa8457a7d1ed950e65
+Top:    7c7b94f9bdb543921c2554fa8457a7d1ed950e65
+Author: sss <sss@karma>
+Date:   2026-04-03 15:52:10 -0400
+
+k4SimGeant4: Avoid G4SystemOfUnits.hh.
+
+G4SystemOfUnits.hh brings the names of all units into the global namespace.
+This pollution of common names (like s and m) can then result in -Wshadow
+warnings from clang.
+
+Use CLHEP/Units/SystemOfUnits.h instead, with explicit namespace
+qualifications where needed.
