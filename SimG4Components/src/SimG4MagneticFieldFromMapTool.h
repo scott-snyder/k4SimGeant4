@@ -9,7 +9,7 @@
 
 // Geant4
 #include "G4MagneticField.hh"
-#include "G4SystemOfUnits.hh"
+#include "CLHEP/Units/SystemOfUnits.h"
 
 // Forward declarations:
 // Geant 4 classes
@@ -70,9 +70,9 @@ private:
   /// Set with property DeltaOneStep
   Gaudi::Property<double> m_deltaOneStep{this, "DeltaOneStep", 0, "Delta(one-step)"};
   /// Upper limit of the step size, see G4 doc for more details. Set with property MaximumStep
-  Gaudi::Property<double> m_maxStep{this, "MaximumStep", 1. * m, "Maximum step length in field (see G4 documentation)"};
+  Gaudi::Property<double> m_maxStep{this, "MaximumStep", 1. * CLHEP::m, "Maximum step length in field (see G4 documentation)"};
   /// Lower limit of the step size, see G4 doc for more details. Set with property MinimumStep
-  Gaudi::Property<double> m_minStep{this, "MinimumStep", 0.01 * mm,
+  Gaudi::Property<double> m_minStep{this, "MinimumStep", 0.01 * CLHEP::mm,
                                     "Minimum step length in field (see G4 documentation)"};
   /// Name of the integration stepper, defaults to NystromRK4.
   Gaudi::Property<std::string> m_integratorStepper{this, "IntegratorStepper", "NystromRK4", "Integrator stepper name"};

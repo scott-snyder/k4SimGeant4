@@ -1,6 +1,6 @@
 #include "SimG4Common/DD4hepField.h"
 // Geant 4
-#include "G4SystemOfUnits.hh"
+#include "CLHEP/Units/SystemOfUnits.h"
 
 namespace k4simgeant4 {
 DD4hepField::DD4hepField(dd4hep::OverlayedField field) : m_field{field} {}
