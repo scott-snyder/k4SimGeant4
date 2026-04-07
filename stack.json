@@ -1,16 +1,17 @@
 {
   "version": 5,
-  "prev": "69a957ad86ccfbbfb2a2e95c649d79735091d242",
-  "head": "01d2fe52663611f5e5a084ae86b247b0a47b9125",
+  "prev": "b89cfb03c7f9c0b1082efcd7ec1b2e936e54978f",
+  "head": "36f03bbeca8c161a393d2e6aeaf278f782058b4d",
   "applied": [
     "depr",
     "cmakewarn",
     "edm4hep",
-    "units",
+    "units"
+  ],
+  "unapplied": [
     "geoConst1",
     "geoConst2"
   ],
-  "unapplied": [],
   "hidden": [
     "ci"
   ],
