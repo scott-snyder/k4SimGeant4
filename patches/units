@@ -1,7 +1,7 @@
-Bottom: e5a64af0b784f2e1508fa23567e9ee317fdd6f44
-Top:    54dd7726cbf6a0ff624fde978229af65114706fb
+Bottom: ee8adb27671a34b41b41b56691dd26ce0725343d
+Top:    aa9d5364912950a9178b311ca82a05eca308de51
 Author: sss <sss@karma>
-Date:   2026-06-17 15:25:18 -0400
+Date:   2026-08-05 16:01:24 -0400
 
 k4SimGeant4: Avoid G4SystemOfUnits.hh.
 
