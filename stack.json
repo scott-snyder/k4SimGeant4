@@ -1,10 +1,9 @@
 {
   "version": 5,
-  "prev": "4ae770ef6480f141e2d5976807e15923b696eec5",
-  "head": "164f159a5720317ce7e013e287187c3593432d6b",
+  "prev": "57075b8541dcbdb051c45bc1a4da570ccdff9c50",
+  "head": "c362b4cbcb7faf6003a1a25b832d8a4a85a5a959",
   "applied": [
     "depr",
-    "geoConst1",
     "geoConst2"
   ],
   "unapplied": [],
@@ -13,11 +12,8 @@
     "depr": {
       "oid": "f2ee3fcadeaff753d4a0f921105fccc83aa57a67"
     },
-    "geoConst1": {
-      "oid": "b0f41a306537cbe3f8f0d58ed79d6126958a6707"
-    },
     "geoConst2": {
-      "oid": "164f159a5720317ce7e013e287187c3593432d6b"
+      "oid": "c362b4cbcb7faf6003a1a25b832d8a4a85a5a959"
     }
   }
 }
