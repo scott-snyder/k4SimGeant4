@@ -1,11 +1,10 @@
 {
   "version": 5,
-  "prev": "0a1c043ef66f175963c5f885b01aa17402e43e46",
-  "head": "f2ee3fcadeaff753d4a0f921105fccc83aa57a67",
-  "applied": [
-    "depr"
-  ],
+  "prev": "9b00629e50ceb4562d06965cb1db0970cf1d00f1",
+  "head": "9efe2e7707315f103b7dbe5f9428a6dea629ce7c",
+  "applied": [],
   "unapplied": [
+    "depr",
     "geoConst2"
   ],
   "hidden": [],
