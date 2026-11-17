@@ -1,7 +1,7 @@
-Bottom: 9a5e74533efbb9372c629786d8cf16aa36ec70d9
-Top:    a3f8a00c3047100994e528198da838e791b12c38
+Bottom: 13fce2615b743a9e15d2c4df397398550dbb941c
+Top:    c3f7b2cd9935a7656222dda32865bbcd9ec93189
 Author: sss <sss@karma>
-Date:   2026-10-06 10:43:10 -0400
+Date:   2026-11-17 09:46:26 -0500
 
 Remove non-const methods of GeoSvc.
 
